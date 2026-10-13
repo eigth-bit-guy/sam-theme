@@ -15,18 +15,23 @@
 
 (deftheme sam-theme "Created 2026-09-10 by Samuel Henrique dos Santos.")
 
-(let (
-	  (sam-black "#000000") ;;theme black color
-	  (sam-white "#f8f8ff") ;;theme white color
-	  (sam-gray  "#bebebe")
-	  (sam-dgray "#a9a9a9")
-	  )
-  )
+(custom-theme-set-faces 'sam-theme
+						'(default                ((t (:foreground "#000000" :background "#bebebe"))))
+						'(font-lock-keyword-face ((t (:foreground "#a9a9a9"))))
+						'(font-lock-string-face  ((t (:foreground "#a0522d"))))
+						'(cursor                 ((t (:foreground "#FFFFFF" :background "#000000"))))
+						'(region                 ((t (:foreground "#FFFFFF" :background "#00008b"))))
+						'(secondary-selection    ((t (:foreground "#FFFFFF" :background "#00008b"))))
+						'(font-lock-variable-name-face ((t (:foreground "#696969")))))
+
+(provide 'sam-theme)(deftheme sam-theme "Created 2026-09-10 by Samuel Henrique dos Santos.")
 
 (custom-theme-set-faces 'sam-theme
-						'(default ((t (:foreground sam-white :background sam-gray))))
-						'(font-lock-keyword-face ((t (:foreground sam-dgray))))
-						'(font-lock-string-face ((t (:foreground "#a0522d"))))
-						)
+                        '(default                ((t (:foreground "#000000" :background "#bebebe"))))
+                        '(font-lock-keyword-face ((t (:foreground "#333333"))))
+                        '(font-lock-string-face  ((t (:foreground "#2f4f4f"))))
+						'(region                 ((t (:foreground "#00868b"))))
+						'(cursor                 ((t (:foreground "#000000")))))
+
 
 (provide 'sam-theme)
