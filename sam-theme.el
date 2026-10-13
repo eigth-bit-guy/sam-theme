@@ -16,22 +16,21 @@
 (deftheme sam-theme "Created 2026-09-10 by Samuel Henrique dos Santos.")
 
 (custom-theme-set-faces 'sam-theme
-						'(default                ((t (:foreground "#000000" :background "#bebebe"))))
-						'(font-lock-keyword-face ((t (:foreground "#a9a9a9"))))
-						'(font-lock-string-face  ((t (:foreground "#a0522d"))))
-						'(cursor                 ((t (:foreground "#FFFFFF" :background "#000000"))))
-						'(region                 ((t (:foreground "#FFFFFF" :background "#00008b"))))
-						'(secondary-selection    ((t (:foreground "#FFFFFF" :background "#00008b"))))
-						'(font-lock-variable-name-face ((t (:foreground "#696969")))))
-
-(provide 'sam-theme)(deftheme sam-theme "Created 2026-09-10 by Samuel Henrique dos Santos.")
-
-(custom-theme-set-faces 'sam-theme
-                        '(default                ((t (:foreground "#000000" :background "#bebebe"))))
-                        '(font-lock-keyword-face ((t (:foreground "#333333"))))
-                        '(font-lock-string-face  ((t (:foreground "#2f4f4f"))))
-						'(region                 ((t (:foreground "#00868b"))))
-						'(cursor                 ((t (:foreground "#000000")))))
-
+						'(default                      ((t (:foreground "#000000" :background "#bebebe"))))
+						'(cursor                       ((t (:foreground "#FFFFFF" :background "#000000"))))
+						'(region                       ((t (:foreground "#FFFFFF" :background "#00008b"))))
+						'(secondary-selection          ((t (:foreground "#FFFFFF" :background "#00008b"))))
+						'(dired-directory              ((t (:foreground "#2f4f4f"))))
+						'(minibuffer-prompt            ((t (:foreground "#000000"))))
+						'(font-lock-comment-face       ((t (:foreground "#8b4513"))))
+						'(font-lock-function-name-face ((t (:foreground "#1a1a1a"))))
+						'(font-lock-constant-face      ((t (:foreground "#696969"))))
+						'(font-lock-type-face          ((t (:foreground "#646464"))))
+						'(font-lock-variable-name-face ((t (:foreground "#696969"))))
+						'(font-lock-keyword-face       ((t (:foreground "#242424"))))
+						'(font-lock-string-face        ((t (:foreground "#2f4f4f"))))
+						'(font-lock-number-face        ((t (:foreground "#000000"))))
+						'(line-number                  ((t (:foreground "#000000"))))
+						'(line-number-current-line     ((t (:foreground "#ff0000")))))
 
 (provide 'sam-theme)
